@@ -1,0 +1,16 @@
+my_dict = {'Ivan':120,'Mike':133,'Nike':128,'Alex':115}
+print('Patients, weight:',my_dict)
+print('Nike has weight:',my_dict.get('Nike'))
+print('Eddy has weight:',my_dict.get('Eddy'))
+my_dict.update({'Slay':118,'Eddy':110})
+a = my_dict.pop('Mike')
+print('Mike had weight:',a)
+print('Without Mike:',my_dict)
+my_set = [9,16,25,36,'town','street','112/16',True,16,25,25,9,True,'town','street']
+print("Набор символов:",my_set)
+my_set = set(my_set)
+print("Множество:",my_set)
+print(my_set.add((49,81)))
+print(my_set.add(64))
+print(my_set.remove(True))
+print("Изменённое множество:",my_set)
